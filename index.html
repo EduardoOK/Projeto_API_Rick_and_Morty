@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="./assets/js/jquery/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <div class="title_page">
+            <h1>Rick and morty</h1>
+            <h2>Usando API com jQuery!</h2>
+        </div>
+        <div>
+            <!-- <form id="myForm">
+                <input type="text" name="" id="name" placeholder="search character">
+                <input type="button" id="b" value="search">
+            </form> -->
+            <input type="text" id="searchInput" placeholder="Digite o nome do personagem">
+            <button id="searchButton">Pesquisar</button>
+
+        </div>
+        <nav style="position: absolute;
+        top:10px; right: 20px;">
+            <a>Home</a>
+            <a>about</a>
+        </nav>
+
+    </header>
+    <main>
+        <div id="characterList">
+        </div>
+        <div class="btn_go">
+            <div class="btn_back">
+                BACK
+            </div>
+            <div class="btn_next">
+                NEXT
+            </div>
+        </div>
+        <div id="navigation"></div>
+    </main>
+    <footer>
+        Copyright 2022 - MedCompany
+    </footer>
+    <script type="module" src="./assets/js/functions.js"></script>
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+
+</html>

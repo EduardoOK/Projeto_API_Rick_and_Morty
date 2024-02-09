@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Lato:wght@900&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 4;
+}
+
+.title_page {
+}
+
+h1,
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  padding-top: 100px;
+  background: rgb(32, 35, 41);
+  margin-bottom: 0px;
+}
+#characterList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character {
+  display: flex;
+}
+
+img {
+  width: 215px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  color: white;
+  background: rgb(39, 43, 51);
+  width: 250px;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+.status_icon {
+  padding: 10px;
+  height: 0.1rem;
+  width: 0.1rem;
+  margin-right: 0.375rem;
+  background: rgb(85, 204, 68);
+  border-radius: 50%;
+}
+.status_icon_red {
+  padding: 10px;
+  height: 0.1rem;
+  width: 0.1rem;
+  margin-right: 0.375rem;
+  background: rgb(182, 48, 48);
+  border-radius: 50%;
+}
+.status_icon_yellow {
+  padding: 10px;
+  height: 0.1rem;
+  width: 0.1rem;
+  margin-right: 0.375rem;
+  background: rgb(226, 223, 36);
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 600px) {
+}
+
+.btn_go {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.btn_back,
+.btn_next {
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  color: azure;
+  margin-bottom: 50px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #e8e8e8;
+  position: sticky;
+  bottom: 0;
+}
+@media screen and (min-width: 601px) {
+}
+@media screen and (max-width: 600px) {
+  .character {
+    display: inline;
+    border-radius: 0px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    color: white;
+    background: rgb(39, 43, 51);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
