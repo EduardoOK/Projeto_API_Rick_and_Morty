@@ -1,0 +1,47 @@
+.page h1 {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  margin-bottom: 50px;
+}
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+p {
+  text-align: justify;
+  font-size: medium;
+  margin: 20px 0px 20px 0px;
+  color: rgb(255, 152, 0);
+}
+
+li a {
+  color: rgb(255, 152, 0);
+  border-bottom: 2px solid rgb(131, 131, 131);
+  transition: all 0.1s ease 0s;
+}
+li a:hover {
+  color: rgb(131, 131, 131);
+  border-bottom: 2px solid rgb(255, 152, 0);
+}
+li {
+  margin-left: 15px;
+}
+article {
+  margin: 0;
+}
+::marker {
+  color: rgb(255, 152, 0);
+}
+
+.page {
+  padding: 0px 1.5rem;
+  max-width: 960px;
+  margin: 0px auto 0px;
+  min-height: 50vh;
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}

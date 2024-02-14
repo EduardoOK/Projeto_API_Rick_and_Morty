@@ -4,30 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>API - Rick and morty</title>
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="./assets/js/jquery/jquery-3.7.1.js"></script>
+    <link rel="shortcut icon" href="./assets/imgs/images2.png" type="image/x-icon">
 </head>
 
 <body>
 
-
-
     <header class="header">
 
         <div class="title_page">
-            <h1>Rick and morty</h1>
-            <h2>Usando API com jQuery!</h2>
+            <a href="./index.html">
+                <h1>Rick and morty</h1>
+                <h2>Using API with Jquery!</h2>
+            </a>
         </div>
-        <div>
-            <input type="text" id="searchInput" placeholder="Digite o nome do personagem">
-            <button id="searchButton">Pesquisar</button>
+        <div id="searchNone">
+            <input type="text" id="searchInput" placeholder="Enter the character's name">
+            <button id="searchButton">Search</button>
 
         </div>
-        <nav style="position: absolute;
-        top:10px; right: 20px;">
-            <a>Home</a>
-            <a>about</a>
+        <nav class="navHome">
+            <a href="./index.html" id="">Home</a>
+            <a href="#API - about" id="about">About</a>
         </nav>
 
     </header>
@@ -35,11 +35,24 @@
         <div id="characterList">
         </div>
         <div class="navBar"></div>
+        <div id='linksSocial'>
+            <a href="https://www.linkedin.com/in/eduardo-pereira-de-santana-7ba929235/" target="_blank"><img
+                    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                    target="_blank"></a>
 
+            <a href="https://github.com/EduardoOK" target="_blank"><img
+                    src="https://img.shields.io/badge/Github-white?style=for-the-badge&logo=github&logoColor=black"
+                    target="_blank">
+            </a>
+        </div>
     </main>
     <footer>
-        Copyright 2022 - MedCompany
+        created by Eduardo Pereira
+
+
+
     </footer>
+    <script type="module" src="./assets/js/createElements.js"></script>
     <script type="module" src="./assets/js/functions.js"></script>
     <script type="module" src="assets/js/script.js"></script>
 </body>
