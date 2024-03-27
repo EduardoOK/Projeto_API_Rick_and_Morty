@@ -1,0 +1,1 @@
+<h1 text="align"> Olá, visitante! Seja bem-vindo ao meu pequeno projeto, onde eu dei um pequeno mergulhei no vasto universo do Rick and Morty utilizando tecnologias web. Meu nome é Eduardo, e este projeto representa minha jornada no desenvolvimento web, especialmente focado em aprender jQuery com Ajax, integrado com uma API externa!</h1>
